@@ -9,7 +9,7 @@
 import Foundation
 
 
-class Child1 : Codable {
+class Child1 {
     
     var id = String()
     var longDescription = String()

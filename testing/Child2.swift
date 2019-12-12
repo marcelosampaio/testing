@@ -9,7 +9,7 @@
 import Foundation
 
 
-class Child2 : Codable {
+class Child2 {
     var monthLabel = String()
     var month = Int()
     var points = [Int]()

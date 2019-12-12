@@ -26,9 +26,9 @@ class ViewController: UIViewController {
         
         //
         let child2b = Child2()
-        child2b.month = 8
-        child2b.monthLabel = "August"
-        child2b.points = [5, 7, 5, 5, 9, 10]
+        child2b.month = 9
+        child2b.monthLabel = "September"
+        child2b.points = [9, 9, 8, 10, 9, 10]
         
         children.append(child2b)
         
@@ -39,11 +39,13 @@ class ViewController: UIViewController {
         child1.longDescription = "bla bla bla kkkkk"
         child1.summary = children
         allOfThem.append(child1)
+        
+        // ------------------------------------------------------------------------
 
         let child1b = Child1()
         child1b.id = "bbb"
         child1b.longDescription = "this is another child1"
-        child1.summary = children
+        child1b.summary = children
         allOfThem.append(child1b)
         
         //
